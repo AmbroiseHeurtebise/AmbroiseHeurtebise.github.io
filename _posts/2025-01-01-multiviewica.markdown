@@ -6,7 +6,7 @@ image: /images/mvica2_2025.png
 categories: research
 subcategories: neuro
 author: "Omar Chehab"
-authors: "Ambroise Heurtebise, <strong>Omar Chehab</strong>, Pierre Ablin, Alexandre Gramfort"
+authors: "<strong>Ambroise Heurtebise</strong>, Omar Chehab, Pierre Ablin, Alexandre Gramfort"
 venue: "Arxiv"
 arxiv: https://arxiv.org/abs/2501.07426
 poster:

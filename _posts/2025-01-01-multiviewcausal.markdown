@@ -6,7 +6,7 @@ date:   2025-02-27 00:00:00
 categories: research
 subcategories: neuro
 author: "Omar Chehab"
-authors: "Ambroise Heurtebise, <strong>Omar Chehab</strong>, Pierre Ablin, Alexandre Gramfort, Aapo Hyvärinen"
+authors: "<strong>Ambroise Heurtebise</strong>, Omar Chehab, Pierre Ablin, Alexandre Gramfort, Aapo Hyvärinen"
 venue: "arXiv"
 arxiv: https://arxiv.org/abs/2502.20115
 poster: 
