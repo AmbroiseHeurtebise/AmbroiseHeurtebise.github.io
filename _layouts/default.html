@@ -32,23 +32,23 @@
           <tr style="padding:0px">
             <td style="padding:2.5%;width:60%;vertical-align:middle">
               <h1>
-                Omar Chehab
+                Ambroise Heurtebise
               </h1>
               <p>
-                I am a postdoctoral researcher in the <a href="https://crest.science/research/research-fields/statistics/" target="_blank" rel="noopener">Statistics Department</a> of ENSAE Paris and CREST, working with <a href="https://akorba.github.io" target="_blank" rel="noopener">Anna Korba</a>, and <span style="color: red;"> am on the job market!</span>
+                I am a third-year PhD student in machine learning and statistical signal processing, working in the <a href="https://team.inria.fr/mind/" target="_blank" rel="noopener">MIND</a> team at <a href="https://www.inria.fr/en/inria-saclay-centre" target="_blank" rel="noopener">Inria Saclay</a> under the supervision of <a href="https://alexandre.gramfort.net" target="_blank" rel="noopener">Alexandre Gramfort</a> and <a href="https://pierreablin.com" target="_blank" rel="noopener">Pierre Ablin</a>.
               </p>
               <p>
-                I received my PhD in Mathematical Computer Science at <a href="https://www.inria.fr/en" target="_blank" rel="noopener">Inria</a>, where I was advised by <a href="https://www.cs.helsinki.fi/u/ahyvarin/" target="_blank" rel="noopener">Aapo Hyvärinen</a> and <a href="http://alexandre.gramfort.net" target="_blank" rel="noopener">Alexandre Gramfort</a>. I also hold Master's in Applied Mathematics and Engineering from  <a href="https://www.ensta-paris.fr/en/node" target="_blank" rel="noopener">ENSTA Paris</a> and in Mathematics, Vision and Learning (MVA) from <a href="https://ens-paris-saclay.fr/en/school/ens-paris-saclay" target="_blank" rel="noopener">ENS Paris-Saclay</a>.
+                Before my PhD, I completed a Master’s degree in Data Science at the <a href="https://www.ip-paris.fr" target="_blank" rel="noopener">Institut Polytechnique de Paris</a>, following a four-year undergraduate and master-level program in Mathematics at <a href="https://dauphine.psl.eu" target="_blank" rel="noopener">Université Paris-Dauphine</a>.
               </p>
               <p style="text-align:center">
-                <a target="_blank" href="mailto:emir.chehab@ensae.fr"> Email</a> &nbsp;/&nbsp;
-                <a href="https://github.com/l-omar-chehab" target="_blank" rel="noopener">GitHub</a> &nbsp;/&nbsp;
-                <a href="https://scholar.google.com/citations?user=P0nFnfAAAAAJ" target="_blank" rel="noopener">Google Scholar</a> &nbsp;/&nbsp;
-                <a href="https://www.linkedin.com/in/omar-chehab-paris" target="_blank" rel="noopener"> LinkedIn </a>
+                <a target="_blank" href="mailto:ambroise.heurtebise@inria.fr"> Email</a> &nbsp;/&nbsp;
+                <a href="https://github.com/AmbroiseHeurtebise" target="_blank" rel="noopener">GitHub</a> &nbsp;/&nbsp;
+                <a href="https://scholar.google.com/citations?user=41EbqS8AAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Google Scholar</a> &nbsp;/&nbsp;
+                <a href="https://www.linkedin.com/in/ambroise-h-77301a120/" target="_blank" rel="noopener"> LinkedIn </a>
               </p>
             </td>
             <td style="padding:2.5%;width:40%;max-width:40%">
-              <img style="width:100%;max-width:100%" alt="profile photo" src="images/omar_profile.png">
+              <img style="width:100%;max-width:100%" alt="profile photo" src="images/ambroise_profile.png">
             </td>
           </tr>
         </table>
@@ -58,126 +58,8 @@
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Research</h2>
               <p>
-                My research is in machine learning, particularly on efficient algorithms for estimating and sampling from probabilistic models, as well as on learning useful representations of brain activity.
+                My research focuses on multi-view learning, independent component analysis (ICA), and causal inference, as well as on learning useful representations of brain activity.
               </p>
-            </td>
-          </tr>
-        </table>
-
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr>
-            <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Sampling from Energy-Based Probabilistic Models</h2>
-            </td>
-          </tr>
-        </table>
-
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-
-          {% for post in site.posts %}
-          {% for subcat in post.subcategories %}
-          {% if subcat == 'sampling' %}
-          <tr>
-            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-              <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
-            </td>
-            <td style="padding:2.5%;width:75%;vertical-align:middle">
-              <h3>{{post.title}}</h3>
-              <br>
-              {{post.authors}}
-
-              <br>
-              <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
-              <br>
-              {% if post.arxiv %}
-              <a href="{{post.arxiv}}" target="_blank">arxiv</a> /
-              {% endif %}
-              {% if post.video %}
-              <a href="{{post.video}}" target="_blank">video</a> /
-              {% endif %}
-              {% if post.code %}
-              <a href="{{post.code}}" target="_blank">code</a> /
-              {% endif %}
-              {% if post.poster %}
-              <a href="{{post.poster}}" target="_blank">poster</a> /
-              {% endif %}
-              {% if post.slides %}
-              <a href="{{post.slides}}" target="_blank">slides</a> /
-              {% endif %}
-              {% if post.website %}
-              <a href="{{post.website}}" target="_blank">website</a> /
-              {% endif %}
-              {% if post.youtube %}
-              <a href="{{post.youtube}}" target="_blank">youtube</a> /
-              {% endif %}
-              <p></p>
-              {{ post.excerpt }}
-            </td>
-          </tr>
-          {% endif %}
-          {% endfor %}
-          {% endfor %}
-        </table>
-
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr>
-            <td style="padding:2.5%;width:100%;vertical-align:middle">
-            <h2>Estimating Energy-Based Probabilistic Models</h2>
-            </td>
-          </tr>
-        </table>
-
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-
-          {% for post in site.posts %}
-          {% for subcat in post.subcategories %}
-          {% if subcat == 'estimation' %}
-          <tr>
-            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-              <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
-            </td>
-            <td style="padding:2.5%;width:75%;vertical-align:middle">
-              <h3>{{post.title}}</h3>
-              <br>
-              {{post.authors}}
-
-              <br>
-              <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
-              <br>
-              {% if post.arxiv %}
-              <a href="{{post.arxiv}}" target="_blank">arxiv</a> /
-              {% endif %}
-              {% if post.video %}
-              <a href="{{post.video}}" target="_blank">video</a> /
-              {% endif %}
-              {% if post.code %}
-              <a href="{{post.code}}" target="_blank">code</a> /
-              {% endif %}
-              {% if post.poster %}
-              <a href="{{post.poster}}" target="_blank">poster</a> /
-              {% endif %}
-              {% if post.slides %}
-              <a href="{{post.slides}}" target="_blank">slides</a> /
-              {% endif %}
-              {% if post.website %}
-              <a href="{{post.website}}" target="_blank">website</a> /
-              {% endif %}
-              {% if post.youtube %}
-              <a href="{{post.youtube}}" target="_blank">youtube</a> /
-              {% endif %}
-              <p></p>
-              {{ post.excerpt }}
-            </td>
-          </tr>
-          {% endif %}
-          {% endfor %}
-          {% endfor %}
-        </table>
-          
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr>
-            <td style="padding:2.5%;width:100%;vertical-align:middle">
-            <h2>Learning Representations of Brain Activity</h2>
             </td>
           </tr>
         </table>
@@ -232,95 +114,7 @@
         <br>
         <br>
         <br>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr>
-            <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Talks</h2>
-              <p>
-                * 04/2025, <a href="https://www.stat.nus.edu.sg" target="_blank">Department of Statistics and Data Science Seminar</a>, NUS, Singapore
-                <br>
-                * 03/2025, <a href="https://www-ljk.imag.fr/spip.php?article6" target="_blank">DATA group Seminar</a>, Laboratoire Jean Kuntzmann, France
-                <br>
-                * 03/2025, <a href="http://tensorlab.cms.caltech.edu/users/anima/" target="_blank">Anima AI + Science Lab Seminar</a>, Caltech, USA
-                <br>
-                * 12/2024, <a href="https://kempnerinstitute.harvard.edu" target="_blank">Kempner Institute</a>, Harvard, USA
-                <br>
-                * 10/2024, <a href="https://sia.mit.edu" target="_blank">Signals, Information, and Algorithms Laboratory Seminar</a>, MIT, USA
-                <br>
-                * 10/2024, <a href="https://uqgroup.mit.edu" target="_blank">Uncertainty Quantification Group Seminar</a>, MIT, USA
-                <br>
-                * 03/2024, <a href="https://www.riken.jp/en/research/labs/cbs/integr_comput_brainsci_collab/stat_math_collab/index.html" target="_blank">Statistical Mathematics Group Seminar</a>, RIKEN, Japan
-                <br>
-                * 03/2023, <a href="https://adnan1306.github.io" target="_blank">Self-Supervised Learning Reading Group</a>, Vector Institute, Canada
-                <br>
-                * 02/2020 <a href="https://team.inria.fr/parietal/first-international-workshop-on-nonlinear-ica/" target="_blank">First International Workshop on Nonlinear ICA</a>, Inria, France
-              </p>
-            </td>
-          </tr>
-        </table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr>
-            <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Teaching</h2>
-              <p> 
-                I was Teacher's Assistant for the following Masters courses.              
-              </p>
-              <p>
-              {% for post in site.posts %}
-              {% for cat in post.categories %}
-              {% if cat == 'teaching' %}
-                {% if post.name %} 
-                <br><span style="color:#5a8f3b">{{post.name}}</span> 
-                {% endif %} 
-                {% if post.header %} 
-                 , {{post.header}} 
-                {% endif %} 
-                {% if post.institution %}
-                - <i>{{post.institution}}</i> 
-                {% endif %} 
-                {% if post.year %}
-                ({{post.year }})
-                {% endif %} 
-                {% if post.professors %}
-                <br> Professors: {{post.professors}} 
-                {% endif %} 
-              {% endif %}
-              {% endfor %}
-              {% endfor %}
-              </p>
-            </td>
-          </tr>
-        </table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr>
-            <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Service</h2>
-              <p> 
-                I review submissions to the following machine learning conferences: NeurIPS, ICML, ICLR and AISTATS.
-                <!-- </br>
-                * Conference on Neural Information Processing Systems (NeurIPS)
-                </br>
-                * International Conference on Machine Learning (ICML) 
-                </br>
-                * International Conference on Learning Representations (ICLR)
-                </br>
-                * International Conference on Artificial Intelligence and Statistics (AISTATS). -->
-                </p>
-                
-                <p>
-                I also review submissions to the following journals: the Journal of Machine Learning Research (JMLR)
-                and the Annals of the Institute of Statistical Mathematics (AISM).
-                <!-- </br>
-                * Journal of Machine Learning Research (JMLR)
-                </br>
-                * Annals of the Institute of Statistical Mathematics (AISM). -->
-                </p>
-                
-                I am grateful to have been recognized as a "top reviewer" (AISTATS 2022, NeurIPS 2022-23-24). 
-            </td>
-          </tr>
-        </table>
-        <br>
+        
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:0px">
