@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Identifiable Multi-View Causal Discovery Without Non-Gaussianity"
-image: /images/multiview_causal_2025.png
+image: /images/multiviewcausal_2025.png
 date:   2025-02-27 00:00:00
 categories: research
 subcategories: neuro
