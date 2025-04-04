@@ -12,4 +12,4 @@ arxiv: https://arxiv.org/abs/2502.20115
 poster:
 code: https://github.com/AmbroiseHeurtebise/MICaDo
 ---
-We learn a causal ordering (Directed Acyclic Graph) between random variables collected from different environments.
+We learn a causal ordering (Directed Acyclic Graph) between random variables collected from different environments, such as brain regions.
