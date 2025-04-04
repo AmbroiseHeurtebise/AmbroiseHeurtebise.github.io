@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "MVICAD2: Multi-View Independent Component Analysis with Delays and Dilations"
-date:   2025-01-13 00:00:00
-image: /images/mvica2_2025.png
+title:  "MVICAD: Multi-View Independent Component Analysis with Delays"
+date:   2023-09-01 00:00:00
+image: /images/mvicad_2023.png
 categories: research
 subcategories: neuro
-author: "Omar Chehab"
-authors: "<strong>Ambroise Heurtebise</strong>, Omar Chehab, Pierre Ablin, Alexandre Gramfort"
+author: "Ambroise Heurtebise"
+authors: "<strong>Ambroise Heurtebise</strong>, Pierre Ablin, Alexandre Gramfort"
 venue: "Arxiv"
-arxiv: https://arxiv.org/abs/2501.07426
+arxiv: https://arxiv.org/abs/2312.00484
 poster:
 code: https://github.com/AmbroiseHeurtebise/mvicad
 ---
