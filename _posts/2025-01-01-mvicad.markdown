@@ -7,7 +7,7 @@ categories: research
 subcategories: neuro
 author: "Ambroise Heurtebise"
 authors: "<strong>Ambroise Heurtebise</strong>, Pierre Ablin, Alexandre Gramfort"
-venue: "Arxiv"
+venue: "IEEE workshop on Machine Learning for Signal Processing"
 arxiv: https://arxiv.org/abs/2312.00484
 poster:
 code: https://github.com/AmbroiseHeurtebise/mvicad
