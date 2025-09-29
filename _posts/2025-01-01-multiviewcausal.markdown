@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Identifiable Multi-View Causal Discovery Without Non-Gaussianity"
+title:  "Multi-View Causal Discovery without Non-Gaussianity: Identifiability and Algorithms"
 image: /images/multiviewcausal_2025.png
 date:   2025-02-27 00:00:00
 categories: research
